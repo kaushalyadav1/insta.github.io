@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0; padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    text-transform: capitalize;
+    /* background: rgb(245, 242, 242); */
+}
+
+#navbar{
+    max-width: 800px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 0px;
+    border-bottom: 1px solid rgb(205, 198, 198);
+}
+
+#navbar>.image{
+    margin-right: 4rem;
+}
+
+#navbar>.image>img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+#main>.right>ul{
+    display: flex;
+    align-items: center;
+}
+
+#main>.right>ul>li{
+    padding: 0px .5rem;
+    font-size: 15px;
+    color: black;
+}
+
+#main>.right>ul>li:first-child{
+    text-transform: lowercase;
+}
+
+#main>.right>ul>li:last-child{
+    text-transform: lowercase;
+}
+
+#main>.right>ul>li>button{
+    height: 30px;
+    width: 110px;
+    padding: 0px 10px;
+    font-size: 13px;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+    margin: 0px 7px;
+    background: rgb(231, 227, 227);
+}
+
+#main>.left{
+    margin-top: 30px;
+}
+
+#main>.left>ul{
+    display: flex;
+    align-items: center;
+}
+
+#main>.left>ul>li:first-child{
+    padding: 0px .5rem;
+    text-transform: lowercase;
+    font-size: 15px;
+    color: black;
+}
+
+#main>.left>ul>li{
+    padding: 0px .5rem;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: black;
+}
+
+#main>.left>ul>li>span{
+    text-transform: lowercase;
+    color: rgb(77, 71, 71);
+}
+
+#main>.bio{
+    margin-top: 1.5rem;
+}
+
+#main>.bio>p{
+    padding: 0px .5rem;
+    font-size: 15px;
+}
+
+#main>.bio>p:first-child{
+    font-weight: 600;
+}
